@@ -1,0 +1,62 @@
+.body, div {
+    margin:0;
+    padding:0;
+  }
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    height: 2em;
+    width: 2em;
+    margin: 0.2em;
+    text-align: center;
+    align-content: center;
+    border-radius: 0.3em;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: column;
+    background: #c1c1c1;
+    border: 1px solid #999;
+    padding: 0.3em;
+    border-radius: 0.3em;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+  }
+  
+  .game-info {
+    margin-left: 1vw;
+    max-height: 10vw;
+  }
+  .list-group{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .list-item {
+      text-align: center;
+    border: 1px solid gray;
+      background-color: lightgray;
+      border-radius: 3px;
+      margin:3px;
+      width: 140px;
+  }
+  
+  .mov-button {
+    height: 2vw;
+    align-content: center;
+  }
